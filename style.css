@@ -1,0 +1,174 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f4f8fc;
+    color: #222;
+}
+
+header {
+    background: #0066cc;
+    color: white;
+    text-align: center;
+    padding: 30px 15px;
+}
+
+header h1 {
+    font-size: 38px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background: white;
+}
+
+.hero h2 {
+    color: #0066cc;
+    margin-bottom: 15px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 15px 25px;
+    background: #25d366;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+section {
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.categorias,
+.productos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.categorias div,
+.producto {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.producto h3 {
+    color: #0066cc;
+    margin-bottom: 10px;
+}
+
+.producto button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: #0066cc;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.producto button:hover {
+    background: #004c99;
+}
+
+footer {
+    background: #0066cc;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+El sáb, 25 de jul de 2026, 3:29 p.m., FULLER’S WORLD <gera.josue.gb@gmail.com> escribió:
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tienda G.Y.C. | Tecnología y Accesorios</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Tienda G.Y.C.</h1>
+    <p>Tecnología y Accesorios</p>
+</header>
+
+<section class="hero">
+    <h2>Todo lo que necesitas en tecnología</h2>
+    <p>Accesorios, equipos y soluciones tecnológicas.</p>
+    <a class="btn" href="https://wa.me/506604979" target="_blank">
+        Consultar por WhatsApp
+    </a>
+</section>
+
+<section>
+<h2>Categorías</h2>
+
+<div class="categorias">
+<div>📱 Celulares</div>
+<div>🎧 Audio</div>
+<div>🔌 Cables y Cargadores</div>
+<div>💻 Computación</div>
+<div>⌚ Smart Devices</div>
+<div>🎮 Gaming</div>
+</div>
+
+</section>
+
+
+<section>
+<h2>Productos destacados</h2>
+
+<div class="productos">
+
+<div class="producto">
+<h3>Audífonos Bluetooth</h3>
+<p>Sonido inalámbrico de alta calidad.</p>
+<button>Consultar</button>
+</div>
+
+<div class="producto">
+<h3>Cargador rápido USB-C</h3>
+<p>Carga rápida para tus dispositivos.</p>
+<button>Consultar</button>
+</div>
+
+<div class="producto">
+<h3>Mouse inalámbrico</h3>
+<p>Comodidad para trabajo y estudio.</p>
+<button>Consultar</button>
+</div>
+
+</div>
+
+</section>
+
+
+<footer>
+<p>© Tienda G.Y.C. - Tecnología y Accesorios</p>
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
